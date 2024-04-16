@@ -30,7 +30,7 @@ Cypress.Commands.add('login', (role) => {
 
     switch (role) {
         case 'admin': login = 'testerAdmin'; break
-        case 'student': login = 'testerStudent'; break
+        case 'student': login = 'ilfey'; break
         case 'employer': login = 'testerEmployer'; break
         case 'institution': login = 'testerInstitution'; break
         default: login = 'admin'; break
@@ -56,5 +56,4 @@ Cypress.Commands.add('login', (role) => {
         cy.log("Check url")
         cy.url().should("include", "/account/main")
     })
-
 })
