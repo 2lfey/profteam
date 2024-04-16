@@ -61,7 +61,7 @@ describe('Vacancie', () => {
       cy.get('[data-v-21f0eb9c=""][data-v-4849dea2=""] > .vacancies-block > .vacancies-block__filters-wrapper > .button')
         .click()
 
-      cy.log("Click create button")
+      cy.log("Check button disabled")
       cy.get('.vacancy-add-form-wrapper > .form > .form__buttons > .buttons > .button')
         .should('be.disabled')
     })

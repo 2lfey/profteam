@@ -1,3 +1,4 @@
 {
-    "account_vacancies_url": "/account/vacancies"
+    "account_vacancies_url": "/account/vacancies",
+    "vacancies_url": "/vacancies"
 }
